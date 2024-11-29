@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Untitled Gantt Project" company="" webLink="http://" view-date="2024-03-18" view-index="0" gantt-divider-location="401" resource-divider-location="300" version="3.3.3312" locale="es_AR">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd15" name="Notes" width="20" order="0"/>
+        <field id="tpd3" name="Name" width="200" order="0"/>
+        <field id="tpd4" name="Begin date" width="75" order="1"/>
+        <field id="tpd5" name="End date" width="75" order="2"/>
+        <field id="tpd6" name="Duration" width="50" order="3"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Name" width="210" order="0"/>
+        <field id="1" name="Default role" width="86" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Ninguna">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2024" month="7" date="14" type="HOLIDAY"/>
+        <date year="2024" month="7" date="15" type="HOLIDAY"/>
+        <date year="2024" month="7" date="16" type="HOLIDAY"/>
+        <date year="2024" month="7" date="17" type="HOLIDAY"/>
+        <date year="2024" month="7" date="18" type="HOLIDAY"/>
+        <date year="2024" month="7" date="19" type="HOLIDAY"/>
+        <date year="2024" month="7" date="20" type="HOLIDAY"/>
+        <date year="2024" month="7" date="21" type="HOLIDAY"/>
+        <date year="2024" month="7" date="22" type="HOLIDAY"/>
+        <date year="2024" month="7" date="23" type="HOLIDAY"/>
+        <date year="2024" month="7" date="24" type="HOLIDAY"/>
+        <date year="2024" month="7" date="25" type="HOLIDAY"/>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="a3e863a534674f18ba65d51364bc4590" name="modelos y sistemas" meeting="false" start="2024-04-23" duration="150" complete="6" expand="true">
+            <task id="1" uid="d470ae8472c045beb7b7ed727357839d" name="analisis" meeting="false" start="2024-04-23" duration="40" complete="0" expand="true">
+                <depend id="2" type="2" difference="0" hardness="Strong"/>
+                <task id="4" uid="727cd3f6d1cc49378fd9043821045e51" name="Análisis de requerimientos" meeting="false" start="2024-04-23" duration="5" complete="0" expand="true">
+                    <depend id="9" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="9" uid="2a2b6e12dddd4f15a16c915245e3c8ce" name="Recopilar Información (entrevistas y cuestionarios)" meeting="false" start="2024-04-30" duration="5" complete="0" expand="true">
+                    <depend id="5" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="5" uid="24541a7f83504d6eb0ba54f6e6e45a1c" name="Analizar problemas" meeting="false" start="2024-05-07" duration="5" complete="0" expand="true">
+                    <depend id="18" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="18" uid="20615e148fbe49909522f0c2c5cf3089" name="Diagrama de clase" meeting="false" start="2024-05-14" duration="10" complete="0" expand="true">
+                    <depend id="7" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="7" uid="3743f856e69541b4a35ea7467eef942e" name="diagrama de base de datos" meeting="false" start="2024-05-28" duration="10" complete="0" expand="true">
+                    <depend id="6" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="6" uid="e539f087129045cabae5ee3367674726" name="Plan de Diseño Físico" meeting="false" start="2024-06-11" duration="5" complete="0" expand="true">
+                    <depend id="2" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="2" uid="b8dcf0306eaa4b6ba073f281370dec03" name="diseño" meeting="false" start="2024-06-18" duration="95" complete="10" expand="true">
+                <depend id="3" type="2" difference="0" hardness="Strong"/>
+                <task id="10" uid="846bfc0ee89548d0adcf16f5ab2a08b5" name="rediseño de BD" meeting="false" start="2024-06-18" duration="10" complete="0" expand="true">
+                    <depend id="8" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="8" uid="d5e3a2042bab48b093001ac659368867" name="Reingeniería de Procesos" meeting="false" start="2024-07-02" duration="10" complete="0" expand="true">
+                    <depend id="11" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="11" uid="a55557e1a81248b7a640815068da511f" name="rediseño de pagina o aplicacion web" meeting="false" start="2024-07-29" duration="10" complete="100" expand="true">
+                    <depend id="12" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="12" uid="808bde57335d488999785516203a3f7a" name="Construcción del sistema" meeting="false" start="2024-08-12" duration="8" complete="0" expand="true">
+                    <depend id="23" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="23" uid="9291db79bbea41d7951dd8b844417c10" name="progrmacion" meeting="false" start="2024-08-22" duration="45" complete="0" expand="true">
+                    <depend id="19" type="2" difference="0" hardness="Strong"/>
+                    <depend id="21" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="19" uid="ddce53e4f3ed4d3f8837dc745ff07cbc" name="prototipos" meeting="false" start="2024-10-24" duration="12" complete="0" expand="true">
+                    <depend id="3" type="2" difference="0" hardness="Strong"/>
+                    <task id="21" uid="25db9e4a6e0f480394c4b12e14dfdfaf" name="testing prototipos 1" meeting="false" start="2024-10-24" duration="8" complete="0" expand="true">
+                        <depend id="22" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                    <task id="22" uid="8601dfa76baa446f9717688f6a14316e" name="testing prototipos 2" meeting="false" start="2024-11-05" duration="4" complete="0" expand="true">
+                        <depend id="3" type="2" difference="0" hardness="Strong"/>
+                        <depend id="14" type="2" difference="0" hardness="Strong"/>
+                    </task>
+                </task>
+            </task>
+            <task id="3" uid="40b71346ff694f02948a77f5153e2748" name="implementacion" meeting="false" start="2024-11-11" duration="15" complete="0" thirdDate="2024-05-01" thirdDate-constraint="1" expand="true">
+                <task id="14" uid="720546b52cb1489c9cf80d7424903c72" name="Testeo" meeting="false" start="2024-11-11" duration="3" complete="0" expand="true">
+                    <depend id="15" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="15" uid="905383f094794842bc555a39fab890ca" name="Instalación" meeting="false" start="2024-11-14" duration="5" complete="0" expand="true">
+                    <depend id="17" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="17" uid="408936ede8ca4fc2afc24fa04bb28caf" name="Asesoria" meeting="false" start="2024-11-21" duration="5" complete="0" expand="true">
+                    <depend id="16" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="16" uid="cdaf107342544ca480328744bb00a6a3" name="mantenimiento" meeting="false" start="2024-11-28" duration="2" complete="0" expand="true"/>
+            </task>
+        </task>
+    </tasks>
+    <resources/>
+    <allocations/>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+</project>
